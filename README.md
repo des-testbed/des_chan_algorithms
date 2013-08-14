@@ -9,6 +9,9 @@ Currently available algorithms:
 
   This algorithm is more like a proof of concept for the DES-Chan framework. One wireless interface face per node is tuned to a common global channel to ensure basic connectivity, while the remaining interfaces are set to randomly selected channels from the set of all available channels.
 
+2. DGA (distributed greedy algorithm)
+
+  DGA has been first proposed in [1]. DGA assigns channels to network nodes, or more precisely, to network interfaces. Intuitively, each node tries to minimize the interference by assigning the least used channels in its interference set. The interference set of a node n consists of all nodes and their channel assignment whose transmissions affect sending and receiving at node n. To preserve the network connectivity, one interface is tuned to a global common channel and not used for channel assignment.
   
 Installation from git
 ---------------------
@@ -24,3 +27,7 @@ Installation from git
 
         sudo python rand.py
 
+
+[1] B.-J. Ko, V. Misra, J. Padhye, and D. Rubenstein, Distributed channel
+assignment in multi-radio 802.11 mesh networks, in Wireless Communications and
+Networking Conference (WCNC), 2007.
