@@ -1,0 +1,20 @@
+# sample config file for DGA
+[General]
+# 3hopco or 2hop
+interferencemodel = 2hop
+port = 12345
+delta2 = 30
+delta5 = 60
+
+[Default Channel]
+channel = 14
+interface = wlan0
+
+[5GHz Band]
+# 9 channels
+channels = 36, 44, 48, 52, 60, 64, 100, 108, 112
+interfaces = wlan1,wlan2
+
+[2GHz Band]
+channels = 
+interfaces = 
