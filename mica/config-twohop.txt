@@ -1,0 +1,18 @@
+# sample configuration file for MICA
+
+[General]
+# 3hopco or 2hop
+interferencemodel = 2hop
+port = 12345
+channels = 36, 44, 48, 52, 60, 64, 100, 108, 112
+interfaces = wlan0,wlan1,wlan2
+wait = 90
+logfile = "/dev/null"
+foreground = True
+experiment_id = 0
+debug = False
+
+[Default Channel]
+channel = 14
+interface = wlan0
+
