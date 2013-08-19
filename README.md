@@ -1,7 +1,7 @@
 des_chan_algorithms
 ===================
 
-This repository comprises the implementation candidates of channel assignment algorithms based on [the DES-Chan framework](https://github.com/des-testbed/des_chan). The algorithms have been developed and evaluated on the [DES-Testbed](http://des-testbed.net). The evaluation results have been published in [1]
+This repository comprises the implementation candidates of channel assignment algorithms based on [the DES-Chan framework](https://github.com/des-testbed/des_chan). The algorithms have been developed and evaluated on the [DES-Testbed](http://des-testbed.net). The evaluation results have been published in [1].
 
 Currently available algorithms:
 
